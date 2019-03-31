@@ -1,0 +1,19 @@
+{
+    "name": "w5",
+    "version": "0.0.2",
+    "description": "",
+    "main": "lib/index.js",
+    "scripts": {
+        "build": "./node_modules/.bin/babel src --out-dir lib"
+    },
+    "keywords": [
+        "write",
+        "me"
+    ],
+    "author": "zemil",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/cli": "^7.2.3",
+        "@babel/core": "^7.4.0"
+    }
+}
